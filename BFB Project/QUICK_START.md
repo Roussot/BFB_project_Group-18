@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-## Installation (2 minutes)
+## Installation 
 
 1. **Install Flask** (if not already installed):
    ```bash
@@ -102,7 +102,7 @@ curl -X POST http://localhost:5000/api/stock \
 
 ## Demo Credentials
 
-Login with these credentials (if you implement login functionality):
+Login with these credentials :
 
 | Email | Password | Role |
 |-------|----------|------|
@@ -140,13 +140,6 @@ rm agrimarket.db   # Mac/Linux
 python seed_data.py
 ```
 
-## Next Steps
-
-1. **Update README.md** with your team member details
-2. **Make individual commits** (each team member)
-3. **Test all features** thoroughly
-4. **Deploy to hosting service** (see DEPLOYMENT.md)
-5. **Submit the hosted link** via ClickUp
 
 ## Project Structure Quick Reference
 
@@ -186,3 +179,4 @@ For issues or questions:
 1. Check PROJECT_SUMMARY.md for detailed documentation
 2. Review DEPLOYMENT.md for hosting instructions
 3. Consult README.md for comprehensive setup guide
+
