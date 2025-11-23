@@ -195,3 +195,18 @@ Relationships:
 - stock 1---* orders (one stock listing can generate many orders)
 - users 1---* orders (one buyer can place many orders)
 - orders 1---1 logistics (each order may have associated logistics record)
+
+## Known Issues
+- Database file size may grow large with extensive stock listings
+- Search functionality is case-sensitive
+- No validation for overlapping stock quantities across multiple orders
+
+## Future Improvements
+- Real-time price updates based on market demand
+- Email notifications for order status changes
+- Integration with payment gateways
+- Mobile-responsive design optimization
+- Advanced filtering options (date ranges, price brackets)
+- Export functionality for orders and analytics reports
+- Multi-language support for international markets
+
