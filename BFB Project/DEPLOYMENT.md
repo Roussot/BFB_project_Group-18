@@ -21,7 +21,7 @@
 
 ## Production Deployment Options
 
-### Option 1: PythonAnywhere (Recommended for Students)
+### Option 1: PythonAnywhere 
 
 1. Create a free account at [PythonAnywhere](https://www.pythonanywhere.com)
 2. Upload your files via the Files tab
@@ -85,3 +85,4 @@ Update the database connection string in app.py accordingly.
 - Enable HTTPS in production
 - Implement proper authentication (JWT tokens)
 - Add input validation and sanitization
+
