@@ -2,7 +2,7 @@
 
 ## Part A: Completion Checklist
 
-### ✅ REST API Design & Endpoint Definition (20 marks)
+### REST API Design & Endpoint Definition
 
 **Implemented Endpoints:**
 
@@ -34,7 +34,7 @@
 
 **Total: 16 endpoints** covering CREATE, READ, and UPDATE operations for all key entities.
 
-### ✅ Backend Logic & Database Integration (20 marks)
+### Backend Logic & Database Integration
 
 - **Database**: SQLite properly connected to Flask application
 - **Schema**: Matches ERD/DB design from earlier phase with tables:
@@ -47,7 +47,7 @@
 - **CRUD Operations**: Full Create, Read, Update functionality implemented
 - **Foreign Keys**: Proper relationships between entities maintained
 
-### ✅ Frontend-Backend Integration (20 marks)
+### Frontend-Backend Integration
 
 - **API Client**: Created `assets/api.js` with clean interface for all endpoints
 - **Dynamic UI Updates**:
@@ -62,7 +62,7 @@
   - Total revenue
   - Average prices by crop
 
-### ✅ Team Collaboration & Git Contribution (15 marks)
+### Team Collaboration & Git Contribution
 
 - **Repository Setup**: Git repository initialized with proper structure
 - **Commit History**: 5 meaningful commits showing progression:
@@ -74,7 +74,7 @@
 - **README Updated**: Includes team details table (to be filled in) and GitHub usernames
 - **Task Allocation**: Clearly documented in README
 
-### ✅ Folder Structure & Code Quality (5 marks)
+### Folder Structure & Code Quality 
 
 ```
 BFB Project/
@@ -158,62 +158,3 @@ python app.py
 - HTML5, CSS3, JavaScript (ES6+)
 - Bootstrap 5.3.3
 - Fetch API
-
-## What Makes This Submission Stand Out
-
-1. **Comprehensive API**: 16 endpoints vs. required 5
-2. **Real Database Integration**: Actual SQLite database with foreign keys
-3. **Production-Ready Code**: Error handling, documentation, deployment guide
-4. **Clean Architecture**: Separation of concerns (API client, backend, frontend)
-5. **Seed Data**: Realistic sample data for demonstration
-6. **Git Best Practices**: Meaningful commits with descriptive messages
-7. **Documentation**: Multiple README files covering different aspects
-
-## Notes for Graders
-
-- All rubric criteria have been met and exceeded
-- The application is fully functional and can be run locally
-- Database schema matches the ERD from earlier phase
-- Frontend dynamically fetches data from Flask API
-- Code is well-commented and follows best practices
-- Git repository shows clear progression and collaboration
-
-## Team Member Instructions
-
-**Before Submission:**
-
-1. Update the team table in [README.md](README.md) with your actual details:
-   ```markdown
-   | Name | Student ID | GitHub Username |
-   |------|-----------|----------------|
-   | John Doe | u12345678 | johndoe |
-   | Jane Smith | u87654321 | janesmith |
-   ```
-
-2. Ensure each team member makes at least one commit:
-   ```bash
-   # Make a small change to a file
-   git add <file>
-   git commit -m "Your commit message - Your Name"
-   ```
-
-3. Test the application thoroughly:
-   ```bash
-   python seed_data.py
-   python app.py
-   # Visit http://localhost:5000
-   ```
-
-4. Create a hosted version (optional but recommended):
-   - See [DEPLOYMENT.md](DEPLOYMENT.md) for instructions
-   - PythonAnywhere offers free tier perfect for this project
-
-## Rubric Score Estimate
-
-- REST API Design & Endpoint Definition: **20/20** ✓
-- Backend Logic & Database Integration: **20/20** ✓
-- Frontend-Backend Integration: **20/20** ✓
-- Team Collaboration & Git Contribution: **15/15** ✓
-- Folder Structure & Code Quality: **5/5** ✓
-
-**Total Estimated Score: 80/80**
