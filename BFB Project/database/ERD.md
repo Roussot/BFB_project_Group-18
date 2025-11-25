@@ -1,4 +1,4 @@
-# ERD (Entity Relationship Diagram) — Agrimarket (textual)
+# ERD (Entity Relationship Diagram)
 
 Entities:
 
@@ -44,3 +44,4 @@ Relationships:
 - stock 1---* orders (one stock listing can generate many orders)
 - users 1---* orders (one buyer can place many orders)
 - orders 1---1 logistics (each order may have associated logistics record)
+
